@@ -37,7 +37,7 @@ Complete the following steps:
 ### Part II. Update web-scraper to iterate all results and load csv file into S3 Bucket
 For this portion of the lab, you are going to alter the script, M10_webscraper_assignment.ipybn, to iterate through the pagination that exists on the page and compile all of the results in one dataframe from each page. Once you have done that, you should follow the same procedures in (2) to load the full csv file into the s3 bucket. 
 Once the test has passed, commit the changes to the master branch of your GitHub repository, updating the script and the file on s3.  
-Submitting the Assignment.
+### Submitting the Assignment.
 Your result should contain an updated .ipybn file that iterates through the table on the Charities Bureau Website and downloads the data into a clean CSV file (no skipped header). This file should be loaded directly into the s3 bucket you created. 
 
 Add your instructor as a collaborator and upload the link to your repository as a response to this Assignment. 
