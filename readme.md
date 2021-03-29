@@ -1,9 +1,6 @@
-<<<<<<< Updated upstream
-=======
 # M10 Assignment: Create web-scraper to load csv file into S3 Bucket (100 pts.)
 In this lab, we will use Selenium to scrape a website and store the file in an s3 bucket.
 
->>>>>>> Stashed changes
 ### Getting Started
 Note that there are dependencies. You will need to configure and install awscli and boto3 and be sure you give access to an S3 bucket. You can find documentation here. Additional modules required include time, pandas, and selenium. You will also need to ensure that you have the Google Chrome webdriver installed. See here for further instructions.  
 The final submission will be an output of your code to a GitHub repository that you have created. You will add me as a collaborator to the repository and put the file, the scripts, and an image of the s3 bucket you created to completed the assignment with the file enclosed. 
@@ -40,7 +37,7 @@ Complete the following steps:
 ### Part II. Update web-scraper to iterate all results and load csv file into S3 Bucket (Done)
 For this portion of the lab, you are going to alter the script, M10_webscraper_assignment.ipybn, to iterate through the pagination that exists on the page and compile all of the results in one dataframe from each page. Once you have done that, you should follow the same procedures in (2) to load the full csv file into the s3 bucket. 
 Once the test has passed, commit the changes to the master branch of your GitHub repository, updating the script and the file on s3.  
-Submitting the Assignment.
+### Submitting the Assignment.
 Your result should contain an updated .ipybn file that iterates through the table on the Charities Bureau Website and downloads the data into a clean CSV file (no skipped header). This file should be loaded directly into the s3 bucket you created. 
 
 Add your instructor as a collaborator and upload the link to your repository as a response to this Assignment. 
