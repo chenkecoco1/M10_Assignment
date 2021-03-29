@@ -37,7 +37,7 @@ Complete the following steps:
 * Step 10. Be sure to update your READ_ME.md file to reflect the script actions and ensure proper documentation.
 (All done)
 
-### Part II. Update web-scraper to iterate all results and load csv file into S3 Bucket
+### Part II. Update web-scraper to iterate all results and load csv file into S3 Bucket (Done)
 For this portion of the lab, you are going to alter the script, M10_webscraper_assignment.ipybn, to iterate through the pagination that exists on the page and compile all of the results in one dataframe from each page. Once you have done that, you should follow the same procedures in (2) to load the full csv file into the s3 bucket. 
 Once the test has passed, commit the changes to the master branch of your GitHub repository, updating the script and the file on s3.  
 Submitting the Assignment.
